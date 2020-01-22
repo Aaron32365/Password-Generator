@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./Assets/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            Password Generator
+        </header>
+        <div class="clearfix">
+            <section id="form-container">
+                <form class="forms">
+                    <!--add in character length form-->
+                    Enter the preferred length of password (8-128 characters) <input type="number" name="password-length" id="pass-length">
+                    <input type="checkbox" value="!@#$%^&*()-+>" name="Special-CharactersCheck"  id="specialChars">Include Special Characters
+                    <input type="checkbox" value="1234567890" name="Numeric-CharactersCheck"  id="numericChars">Include Numeric Characters
+                    <input type="checkbox" value="abcdefghijklmnopqrstuvwxyz" name="Lowercase-CharactersCheck" id="lowerCaseChars">Include Lower Case Characters
+                    <input type="checkbox" value="ABCDEFGHIJKLMNOPQRSTUVWXYZ" name="Uppercase-CharactersCheck"  id="upperCaseChars">Include Upper Case Characters
+                    <br>
+                </form>
+            </section>
+        </div>
+        <section id="body">
+            <div id="body-header">
+                Generate a Password
+                <div class="line" id="top">
+                     
+                </div>
+            </div> 
+            <section id="body-container-dashed">
+                <div class="body-text">
+                    <div id="body-text-outer">
+                        Your Secure Password
+                    </div>
+                    <div id="generatedPassword">
+                        
+                    </div>
+                </div>
+            </section>
+            <div class="line" id="bottom">
+                    
+            </div>
+            <div>
+                <form>
+                    <button class="button" id="submit">
+                        Generate Password
+                    </button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="./Assets/script.js"></script>
+</body>
+</html>

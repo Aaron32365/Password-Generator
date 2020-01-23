@@ -23,7 +23,9 @@ function updateallChars(){
         allChars += this.value
         console.log(allChars)
     }else{
-        allChars -= this.value
+        for (let char of this.value) {
+            allChars = allChars.replace(char, '')
+        }
         console.log(allChars)
     }
     

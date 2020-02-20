@@ -44,7 +44,7 @@ submit.addEventListener("click", function(event){
     }else if(passLength.value < 8 || passLength.value > 128){
         alert("Preferred password length must be between 8 and 128 characters")
         return;
-    }else{
+    }else if(!passLength.value < 8 || passLength.value > 128){
         alert("Please check atleast one of the password generation criteria")
         return;
     }

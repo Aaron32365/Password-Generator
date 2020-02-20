@@ -16,6 +16,11 @@ Credits☝️
 
 License🔏
 
+# Urls:
+https://aaron32365.github.io/Password-Generator/
+
+https://github.com/Aaron32365/Password-Generator
+
 # Installation
 No instillation needed, Simply connect to the website listed above
 
